@@ -15,6 +15,6 @@ Email Web Application provides:
 8- sending attachments with email \
 9- deleting the trashed emails after about 30 days from the trashing process date \
 10- searching for some users \
-11- adding users as friends \
+11- adding users as friends
 
 Email Frontend: https://github.com/AliELSharawy/Email-Front-End
