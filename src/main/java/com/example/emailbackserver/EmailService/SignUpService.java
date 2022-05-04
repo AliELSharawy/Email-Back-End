@@ -24,8 +24,8 @@ public class SignUpService {
         this.usersDataFilePath = "C:\\Users\\HP\\Desktop\\louay\\programming2\\emailBackServer\\users";
         createFile(usersDataFilePath, "directory");
 
-        this.usersDataFilePath = "C:\\Users\\HP\\Desktop\\louay\\programming2\\emailBackServer\\users\\UsersData.json";
-        this.eachUserPath = "C:\\Users\\HP\\Desktop\\louay\\programming2\\emailBackServer\\users\\";
+        this.usersDataFilePath = "F:\\ali\\CSED\\level 2 term 1\\programming 2\\prog 2 lab\\lab 4\\lab 4 spring boot\\users\\UsersData.json";
+        this.eachUserPath = "F:\\ali\\CSED\\level 2 term 1\\programming 2\\prog 2 lab\\lab 4\\lab 4 spring boot\\users\\";
         currentUsers = new User[0];
 
         createFile(usersDataFilePath, "file");

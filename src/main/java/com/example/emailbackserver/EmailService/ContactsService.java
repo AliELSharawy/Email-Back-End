@@ -17,7 +17,7 @@ import java.util.Arrays;
 @Service
 public class ContactsService {
     private String contactEmail;
-    private String staticPath = "C:\\Users\\HP\\Desktop\\louay\\programming2\\emailBackServer\\users";
+    private String staticPath = "F:\\ali\\CSED\\level 2 term 1\\programming 2\\prog 2 lab\\lab 4\\lab 4 spring boot\\users";
     private String contactsFilePath;
     private UserCriteria critera;
 
@@ -26,8 +26,8 @@ public class ContactsService {
     // optimize add existed user
     public boolean addContact(String userOwnerEmail, User userAdded){
         User[] contactArr = getContact(userOwnerEmail);
-        for(int i=0; i < contactArr.length;i++) {
-            if ((contactArr[i].getEmailAddress()).equals(userAdded.getEmailAddress()))
+        for (User user : contactArr) {
+            if ((user.getEmailAddress()).equals(userAdded.getEmailAddress()))
                 return false;
         }
         Gson gson = new Gson();

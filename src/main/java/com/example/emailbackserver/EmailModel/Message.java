@@ -7,7 +7,7 @@ public class Message implements Cloneable{
     private String from;
     private String[] to;
     private String subject;
-    private String attachment;///////////////////////need to search
+    private String attachment;
     private String body;
     private String date;
     private boolean starred;
