@@ -1,6 +1,6 @@
 # Email Backend
-- Implemented using springboot framework. please, make sure you that you change paths found in service classes to the location where you download this project, the project folder was named EmailBackServer. \
-- Run Back-End Program on local host https://localhost:8080/ \
+- Implemented using springboot framework. please, make sure you that you change paths found in service classes to the location where you download this project, the project folder was named EmailBackServer. 
+- Run Back-End Program on local host https://localhost:8080/ 
 - Email Frontend: https://github.com/AliELSharawy/Email-Front-End
 
 ## Team Members:
