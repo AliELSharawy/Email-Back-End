@@ -1,7 +1,14 @@
 # Email Backend
-Implemented using springboot framework. please, make sure you that you change paths found in service classes to the location where you download this project, the project folder was named EmailBackServer
+Implemented using springboot framework. please, make sure you that you change paths found in service classes to the location where you download this project, the project folder was named EmailBackServer. \
+Run Back-End Program on local host https://localhost:8080/ \
+Email Frontend: https://github.com/AliELSharawy/Email-Front-End
 
-Email Web Application provides:
+## Team Members:
+    Ali Hassan ElSharawy
+    Basel Ahmed
+    Louay Magdy
+    
+## Email Web Application provides:
 
     1- sending emails \
     2- staring emails \
@@ -15,4 +22,11 @@ Email Web Application provides:
     10- searching for some users \
     11- adding users as friends
 
-Email Frontend: https://github.com/AliELSharawy/Email-Front-End
+## Design Patterns used:
+    ### Delegation Pattern:
+        - Relation between services and controllers
+        - Relation between services and models
+        - Relation between some services as userFileService and messageService
+    ### Interface Pattern:
+        - Relation between MessageCriteria class and MessageService
+        - Relation between UserCriteria class and UserService
