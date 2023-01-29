@@ -24,9 +24,9 @@ Email Frontend: https://github.com/AliELSharawy/Email-Front-End
 
 ## Design Patterns used:
      Delegation Pattern:
-     - Relation between services and controllers
-     - Relation between services and models
-     - Relation between some services as userFileService and messageService
+        - Relation between services and controllers
+        - Relation between services and models
+        - Relation between some services as userFileService and messageService
      Interface Pattern:
-     - Relation between MessageCriteria class and MessageService
-     - Relation between UserCriteria class and UserService
+        - Relation between MessageCriteria class and MessageService
+        - Relation between UserCriteria class and UserService
