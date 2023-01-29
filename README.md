@@ -8,6 +8,21 @@ Email Frontend: https://github.com/AliELSharawy/Email-Front-End
     Basel Ahmed
     Louay Magdy
     
+## Design Patterns used:
+     Delegation Pattern:
+        - Relation between services and controllers
+        - Relation between services and models
+        - Relation between some services as userFileService and messageService
+     Interface Pattern:
+        - Relation between MessageCriteria class and MessageService
+        - Relation between UserCriteria class and UserService
+     Prototype Pattern:
+        - Both models objects can be cloned
+     Filter Pattern:
+        - Applied in searching for messages and contacts
+     Maker Interface Pattern
+        - in cloning objects , and serialization and deserialization of Json Objects
+
 ## Email Web Application provides:
 
     1- sending emails 
@@ -21,12 +36,9 @@ Email Frontend: https://github.com/AliELSharawy/Email-Front-End
     9- deleting the trashed emails after about 30 days from the trashing process date 
     10- searching for some users 
     11- adding users as friends
+    
+## Design Decisions made:
 
-## Design Patterns used:
-     Delegation Pattern:
-        - Relation between services and controllers
-        - Relation between services and models
-        - Relation between some services as userFileService and messageService
-     Interface Pattern:
-        - Relation between MessageCriteria class and MessageService
-        - Relation between UserCriteria class and UserService
+    - Sending messages can be from one user to multiple users
+    - User can use only one custom folder to drag the needed files inside
+    - In searching for messages by "to" attribute if you put multiple users, you will get messages to either of them (inclusively)
